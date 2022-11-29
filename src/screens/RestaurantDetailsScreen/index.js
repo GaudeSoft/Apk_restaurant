@@ -12,7 +12,6 @@ const RestaurantDetailsPage = () =>{
                 ListHeaderComponent={() => <Header restaurant={restaurant}/>}
                 data = {restaurant.dishes}
                 renderItem={({item}) => <DishListItem dish = {item}/>}  
-
             />
             <Ionicons 
                 name="arrow-back-circle"

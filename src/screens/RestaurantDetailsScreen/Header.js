@@ -4,7 +4,7 @@ import restaurants from "../../../assets/data/restaurants.json";
 import styles from "./style";
 
 ("");
-const RestaurantHeader = (restaurant) =>{
+const RestaurantHeader = ({restaurant}) =>{
     return(
         <View style={styles.page}>
             <Image source={{uri: restaurant.image}} style={styles.image}/>
